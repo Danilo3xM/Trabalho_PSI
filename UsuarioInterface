@@ -4,7 +4,7 @@
 <center>
 <link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\Stile.css"/>
 <ul id="menu">
-	<li><a href ="#" > Cadastre-se </a></li>
+	<li><a href ="CadastroHTML.html" > Cadastre-se </a></li>
 </ul>
 <span class="tit">Bem-vindo</span><br />
 <form action="UsuarioDB.php" id="login" name="form" method="post" class="margtop10">
