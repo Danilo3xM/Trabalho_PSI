@@ -1,0 +1,63 @@
+<html>
+
+<head>
+	<title>Cadastro</title>
+	<link rel="stylesheet" href="/iReaderWeb/css/normalize.css"> 
+	<link rel="stylesheet" href="/iReaderWeb/css/skeleton.css"> 
+</head>
+
+<body bgcolor="white" color="white">
+<form action="Cadastro_BD.php" id="loginButton" name="loginButton" method="post" class="form1" enctype = "multipart/form-data">
+</br>
+<form id="signupForm" class="fv-form-horizontal" method="post">
+    <div class="row">
+        <label class="three columns">Nome Completo</label>
+
+        <div class="four columns">
+            <input type = "text" data-type="text" name="nome" aria-required="1" placeholder="Nome" id="nome" aria-label="nome" class="u-full-width" placeholder="Nome" />
+        </div>
+
+        <div class="four columns">
+            <input type ="text" data-type="text" name="sobrenome" aria-required="1" placeholder="Sobrenome" id="sobrenome" aria-label="sobrenome" class="u-full-width" placeholder="Sobrenome" />
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="three columns">Apelido</label>
+
+        <div class="six columns">
+            <input type = "text" data-type="text" name="login" aria-required="1" placeholder="Login" id="login" aria-label="login" class="u-full-width" />
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="three columns">E-mail</label>
+
+        <div class="six columns">
+            <input data-type="text" name="email" aria-required="1" placeholder="E-mail" id="email" aria-label="email" type="text" class="u-full-width" />
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="three columns">Login</label>
+
+        <div class="six columns">
+            <input type = "text" data-type="text" name="apelido" aria-required="1" placeholder="Apelido" id="apelido" aria-label="apelido" />
+        </div>
+    </div>
+
+    <div class="row">
+        <label class="three columns">Senha</label>
+
+        <div class="six columns">
+            <input data-type="text" name="senha" aria-required="1" placeholder="Senha" id="senha" aria-label="senha" type="password" class="u-full-width" />
+        </div>
+    </div>
+    
+    <center>
+    
+    <input name="loginButton" id="Button" type="submit" value=" Cadastrar"  style="submit" />
+	</center>
+</form>
+</body>
+<html>
