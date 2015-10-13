@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+	<title>Interface - Usu&aacute;rio</title>
+	<link rel="stylesheet" href="/iReaderWeb/css/normalize.css"> 
+	<link rel="stylesheet" href="/iReaderWeb/css/skeleton.css"> 
+
+</head>
+
+<body bgcolor="white" color="white">
+	<center>
+	<div class="container"> 
+		<div class="sixteen columns"> 
+			<h1 class="remove-bottom" style="margin-top: 40px">iReader</h1> 
+			<h6>Sua escolha de praticidade com arquivos PDF!</h6> 
+			<hr/> 
+	</div> 
+<!--Final do Topo -->
+<!-- Formulário de Login -->
+
+	<form action="logar.php" id="loginButton" class="fv-form-horizontal" name="loginButton" method="post">
+	    <!-- Login -->
+	    <div class="container">
+
+	    <div class="row">
+	    	<div class="four columns offset-by-four">
+	        	<input name="login" type="text" id ="login" class="u-full-width" placeholder="Seu Login"/>
+	    	</div>
+	    </div>
+	    <!-- Senha -->
+	    <div class="row">
+	    	<div class="four columns offset-by-four">
+	        	<input name="senha" type="password" id ="senha" class="u-full-width" placeholder="Sua Senha"/>
+	    	</div>
+	    </div>
+	    <!-- Botão -->
+	    <div class="row">
+	        <button name = "loginButton" id="Button" type="submit" class="button" >Entrar</button>
+	    </div>
+
+	    </div>
+	<a><h6>Ainda n&atilde;o tem uma conta? Cadastre-se!</h6></a>
+	<a class="button button-primary" href="Cadastro.html">Cadastrar</a>
+	</form>
+	</center>
+</body>
+
+<html>
