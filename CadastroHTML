@@ -1,0 +1,30 @@
+<html>
+
+<body bgcolor="gray" color="yellow">
+<center>
+<link rel="stylesheet" type="text/css" href="Stile.css"/>
+<ul id="menu">
+	<li><a href ="Usuario.html"> Pagina Inicial </a></li>
+	
+</ul>
+<form action="UsuarioDB.php" id="loginButton" name="loginButton" method="post" class="margtop10">
+
+						
+						<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" name="Nome" aria-required="1" placeholder="Nome" id="u_0_1" aria-label="Nome" />
+						<br />
+						<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" name="Sobrenome" aria-required="1" placeholder="Sobrenome" id="u_0_1" aria-label="Sobrenome" />
+						<br />
+						<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" name="Apelido" aria-required="1" placeholder="Apelido" id="u_0_1" aria-label="Apelido" />
+						<br />
+						<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" name="Email" aria-required="1" placeholder="Email" id="u_0_1" aria-label="Email" />
+						<br />
+						<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" name="Login" aria-required="1" placeholder="Login" id="u_0_1" aria-label="Login" />
+						<br />
+						<input type="password" class="inputtext _58mg _5dba _2ph-" data-type="text" name="Senha" aria-required="1" placeholder="Senha" id="u_0_1" aria-label="Senha" />
+						<br />
+						<input name="loginButton" id="Button" type="submit" value=" Cadastrar"  style="width: 130px;" />																						
+						<br />
+</form>
+</center>
+</body>
+<html>
